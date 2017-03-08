@@ -1,5 +1,10 @@
 package session02;
 
+/*
+1. Implement a class that detects if there are more than 1 modifications between
+2 strings. Modification can be additions, substraction or replacement, but if
+more than one had to be made in order to achieve it, it should return false.
+*/
 class ModDetector {
 
     // Validate a couple of strings have only one modification between them.
