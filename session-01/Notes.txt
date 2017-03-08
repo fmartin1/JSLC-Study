@@ -1,6 +1,0 @@
--Los 4 conceptos de OOP
--What does high cohesion means?
--SOLID
-1.Implement an algorithm that verifies a string has only unique characters. Optional: Use a single data structure.
-2.Implement a method that determines if a string is permutation of another.
-3.Convert a string into URL format (i.e. "hello world" -> "hello%20world"), don't use Collections.
