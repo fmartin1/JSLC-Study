@@ -12,6 +12,17 @@ package session03;
   [c d]      [d b]
   -Tip: for bigger arrangements, rotate the smaller ones first, then the bigger ones.
 */
-public class Rotator {
+class Rotator {
 
+    static char[][] rotate(char[][] charArray) {
+        int rowSize = charArray[0].length;
+        int colSize = charArray.length;
+        char[][] rotatedArray = new char[rowSize][colSize];
+        for (int row=0; row < rowSize; row++) {
+            for (int col=0; col < colSize; col++) {
+                rotatedArray[row][col] = charArray[colSize-(col+1)][row];
+            }
+        }
+        return rotatedArray;
+    }
 }
